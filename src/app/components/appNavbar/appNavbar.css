@@ -5,6 +5,11 @@
     justify-content: center;
     align-items: stretch;
   }
+
+  h3{
+    font-family:var(--manropeBold);
+  
+  }
   
   form {
     color: #555;

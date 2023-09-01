@@ -2,17 +2,156 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
- 
+  --manropeBold: "Manrope Bold";
+  --manropeExtraBold : "Manrope ExtraBold";
+  --manropeExtraLight : "Manrope ExtraLight";
+  --manropeLight: "Manrope Light";
+  --manropeMedium: "Manrope Medium";
+  --manropeRegular: "Manrope Regular";
+  --manropeSemiBold: "Manrope SemiBold";
+  --mulishBlack: "Manrope Black";
+  --mulishBlackitalic: "Manrope Blackitalic";
+  --mulishBold: "Manrope Bold";
+  --mulishBolditalic: "Manrope Bolditalic";
+  --mulishExtrabold: "Manrope Extrabold";
+  --mulishExtrabolditalic: "Manrope Extrabolditalic";
+  --mulishExtralight: "Manrope Extralight";
+  --mulishExtralightitalic: "Manrope Extralightitalic";
+  --mulishItalic: "Manrope Italic";
+  --mulishLight: "Manrope Light";
+  --mulishLightitalic: "Manrope Lightitalic";
+  --mulishMedium: "Manrope Medium";
+  --mulishMediumitalic: "Manrope Mediumitalic";
+  --mulishRegular: "Manrope Regular";
+  --mulishSemibold: "Manrope Semibold";
+  --mulishSemibolditalic: "Manrope Semibolditalic";
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-   
   }
 }
 
 body {
   height: 100vh;
   margin: 0;
+}
+
+//Manrope
+@font-face {
+  font-family: var(--manropeBold);
+  src: url("./font/Manrope/Manrope-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: var(--manropeExtraBold);
+  src: url("./font/Manrope/Manrope-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: var(--manropeExtraLight);
+  src: url("./font/Manrope/Manrope-ExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: var(--manropeLight);
+  src: url("./font/Manrope/Manrope-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: var(--manropeMedium);
+  src: url("./font/Manrope/Manrope-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: var(--manropeRegular);
+  src: url("./font/Manrope/Manrope-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: var(--manropeSemiBold);
+  src: url("./font/Manrope/Manrope-SemiBold.ttf") format("truetype");
+}
+
+//Mulish
+@font-face {
+  font-family: var(--mulishBlack);
+  src: url("./font/Mulish/Mulish-Black.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: var(--mulishBlackitalic);
+  src: url("./font/Mulish/Mulish-BlackItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: var(--mulishBold);
+  src: url("./font/Mulish/Mulish-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: var(--mulishBolditalic);
+  src: url("./font/Mulish/Mulish-BoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: var(--mulishExtrabold);
+  src: url("./font/Mulish/Mulish-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: var(--mulishExtrabolditalic);
+  src: url("./font/Mulish/Mulish-ExtraBoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: var(--mulishExtralight);
+  src: url("./font/Mulish/Mulish-ExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: var(--mulishExtralightitalic);
+  src: url("./font/Mulish/Mulish-ExtraLightItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: var(--mulishItalic);
+  src: url("./font/Mulish/Mulish-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: var(--mulishLight);
+  src: url("./font/Mulish/Mulish-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: var(--mulishLightitalic);
+  src: url("./font/Mulish/Mulish-LightItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: var(--mulishMedium);
+  src: url("./font/Mulish/Mulish-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: var(--mulishMediumitalic);
+  src: url("./font/Mulish/Mulish-MediumItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: var(--mulishRegular);
+  src: url("./font/Mulish/Mulish-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: var(--mulishSemibold);
+  src: url("./font/Mulish/Mulish-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: var(--mulishSemibolditalic);
+  src: url("./font/Mulish/Mulish-SemiBoldItalic.ttf") format("truetype");
 }
