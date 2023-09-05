@@ -9,7 +9,7 @@ import Footer from './components/footer';
 
 export default function Home() {
   return (
-    <main>
+    <main className='px-20 py-10'>
       <AppNavbar />
       <AppHero />
       <TrendingNFT />

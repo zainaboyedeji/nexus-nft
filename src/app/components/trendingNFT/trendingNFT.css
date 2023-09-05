@@ -1,0 +1,10 @@
+.trendingDiv{
+    background:#F5F5F5;
+    padding:1rem;
+}
+.trendingButton{
+    background:black;
+    color:white;
+    width:174px;
+    height:47px;
+}

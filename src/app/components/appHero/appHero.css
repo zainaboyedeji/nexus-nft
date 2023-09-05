@@ -1,0 +1,30 @@
+.exploreText{
+    color:grey;
+}
+.heroButton{
+    background:black;
+    color:white;
+    width:174px;
+    height:47px;
+}
+.heroImg{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.cryptoDiv{
+    border-right:1px solid gray;
+}
+.bitcoinImage{
+    width:10rem;
+    height:2rem; 
+}
+.cryptoImage{
+    width:9rem;
+    height:2rem;
+}
+.heroHeader{
+
+}
+.heroParagraph{
+    color:#D4D4D4; 
+}

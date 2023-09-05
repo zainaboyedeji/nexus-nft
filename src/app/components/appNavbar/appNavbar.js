@@ -1,32 +1,22 @@
 import Image from 'next/image'
 import "./appNavbar.css"
 import Link from 'next/link'
-import { Mulish } from 'next/font/google'
-import { Inter } from 'next/font/google'
-import { Roboto } from 'next/font/google'
-
-const roboto = Roboto({
-    weight: '400',
-    subsets: ['latin'],
-    display: 'swap',
-  })
+import lanfty from "../../../../public/lanfty.png"
 
 export default function AppNavbar() {
     return (
-        <div className='flex'>
-            <p>Lanfty</p>
-            <h3>Lanfty</h3>
-
-            <div className="container">
+        <div className='w-full flex justify-between'>
+            <div><Image src={lanfty} alt="Lanfty Logo" className='w-16'/></div>
+            <div className="w-2/5">
                 <form className="nosubmit">
                     <input className="nosubmit" type="search" placeholder="Search items,collections, and more" />
                 </form>
             </div>
-            <div>
-            <Link href="/dashboard">Artwork</Link>
-            <Link href="/dashboard">Discover</Link>
-            <Link href="/dashboard">Articles</Link>
-            <Link href="/dashboard">Create</Link>
+            <div className='w-2/5 flex justify-between'>
+            <Link href="/dashboard" className='navbarLink'>Artwork</Link>
+            <Link href="/dashboard" className='navbarLink'>Discover</Link>
+            <Link href="/dashboard" className='navbarLink'>Articles</Link>
+            <Link href="/dashboard" className='navbarLink'>Create</Link>
             </div>
 
 
