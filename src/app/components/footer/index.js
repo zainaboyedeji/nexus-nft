@@ -2,10 +2,10 @@ import Link from "next/link";
 
 const Footer = () => {
     return (
-        <div>
+        <div className="mt-20">
             <h6>Lanfty</h6>
 
-            <div className="flex">
+            <div className="flex mt-10 justify-between">
                 <div>
                     <Link href="/">Artwork</Link>
                     <Link href="/">Discover</Link>
@@ -26,7 +26,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className="flex">
+            <div className="flex justify-between mt-10">
                 <p>Privacy Policy & Terms Conditions</p>
                 <p>All credits own by respective owner</p>
             </div>
