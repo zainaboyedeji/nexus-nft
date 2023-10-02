@@ -11,22 +11,22 @@
   --manropeMedium: "Manrope Medium";
   --manropeRegular: "Manrope Regular";
   --manropeSemiBold: "Manrope SemiBold";
-  --mulishBlack: "Manrope Black";
-  --mulishBlackitalic: "Manrope Blackitalic";
-  --mulishBold: "Manrope Bold";
-  --mulishBolditalic: "Manrope Bolditalic";
-  --mulishExtrabold: "Manrope Extrabold";
-  --mulishExtrabolditalic: "Manrope Extrabolditalic";
-  --mulishExtralight: "Manrope Extralight";
-  --mulishExtralightitalic: "Manrope Extralightitalic";
-  --mulishItalic: "Manrope Italic";
-  --mulishLight: "Manrope Light";
-  --mulishLightitalic: "Manrope Lightitalic";
-  --mulishMedium: "Manrope Medium";
-  --mulishMediumitalic: "Manrope Mediumitalic";
-  --mulishRegular: "Manrope Regular";
-  --mulishSemibold: "Manrope Semibold";
-  --mulishSemibolditalic: "Manrope Semibolditalic";
+  --mulishBlack: "Mulish Black";
+  --mulishBlackitalic: "Mulish BlackItalic";
+  --mulishBold: "Mulish Bold";
+  --mulishBolditalic: "Mulish BoldItalic";
+  --mulishExtrabold: "Mulish ExtraBold";
+  --mulishExtrabolditalic: "Mulish ExtraBoldItalic";
+  --mulishExtralight: "Mulish Extralight";
+  --mulishExtralightitalic: "Mulish ExtraLightItalic";
+  --mulishItalic: "Mulish Italic";
+  --mulishLight: "Mulish Light";
+  --mulishLightitalic: "Mulish LightItalic";
+  --mulishMedium: "Mulish Medium";
+  --mulishMediumitalic: "Mulish MediumItalic";
+  --mulishRegular: "Mulish Regular";
+  --mulishSemibold: "Mulish SemiBold";
+  --mulishSemibolditalic: "Mulish SemiBoldItalic";
 }
 
 @media (prefers-color-scheme: dark) {

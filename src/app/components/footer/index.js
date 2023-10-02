@@ -3,7 +3,7 @@ import Link from "next/link";
 const Footer = () => {
     return (
         <div className="mt-20">
-            <h6>Lanfty</h6>
+            <h1>Lanfty</h1>
 
             <div className="flex mt-10 justify-between">
                 <div>

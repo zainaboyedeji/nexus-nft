@@ -13,10 +13,10 @@ export default function AppNavbar() {
                 </form>
             </div>
             <div className='w-2/5 flex justify-between'>
-            <Link href="/dashboard" className='navbarLink'>Artwork</Link>
-            <Link href="/dashboard" className='navbarLink'>Discover</Link>
-            <Link href="/dashboard" className='navbarLink'>Articles</Link>
-            <Link href="/dashboard" className='navbarLink'>Create</Link>
+            <Link href="/dashboard" className='navbarLink text-gray-500'>Artwork</Link>
+            <Link href="/dashboard" className='navbarLink text-gray-500'>Discover</Link>
+            <Link href="/dashboard" className='navbarLink text-gray-500'>Articles</Link>
+            <Link href="/dashboard" className='navbarLink text-gray-500'>Create</Link>
             </div>
 
 

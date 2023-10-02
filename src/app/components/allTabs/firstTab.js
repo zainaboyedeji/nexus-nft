@@ -7,28 +7,23 @@ import box from "../../../../public/box.png";
 import boxtwo from "../../../../public/box2.png";
 import ethereum from "../../../../public/ethereum.png";
 import sculpture from "../../../../public/sculpture.png";
-import fire from "../../../../public/fire.png";
-import "./trendingNFT.css";
+import "./firstTab.css";
 
-const TrendingNFT = () => {
+const FirstTab = () => {
   return (
     <div className="mt-36">
-      <h3 className="font-bold text-3xl inline">
-        Top 3 Trending NFTS
-        <Image src={fire} alt="Fire" className="ml-2 inline" />
-      </h3>
       <div className="flex justify-between mt-10">
-        <div className="trendingDiv rounded-md">
-          <Image src={blackearth} alt="BlackEarth" />
+        <div className="trendingDiv">
+          <Image src={blackearth} className="rounded" alt="BlackEarth" />
           <h3 className="mt-6 mb-5 font-bold text-2xl">Black Earth Grid</h3>
 
           <div className="flex justify-between">
             <div className="flex">
-              <Image src={creambox} className="rounded-full" alt="CreamBox" />
-              <span className="mt-5 ml-2 text-sm">Javier</span>
+              <Image src={creambox} className="rounded-full" alt="CreamBox" />{" "}
+              <span className="mt-3 ml-2 text-sm">Javier</span>
             </div>
             <div className="mt-5">
-              <Image src={ellipsis} className="mt-2" alt="Ellipsis" />
+              <Image src={ellipsis} className="" alt="Ellipsis" />
             </div>
           </div>
 
@@ -39,15 +34,15 @@ const TrendingNFT = () => {
             </div>
             <div>
               <p className="text-xs">Top Bid</p>
-              <div className="flex">
+              <h2 className="text-lg">
                 <Image src={ethereum} className="" alt="Ethereum" />
-                <h2 className="text-lg">8.32 ETH</h2>
-              </div>
+                8.32 ETH
+              </h2>
             </div>
           </div>
         </div>
 
-        <div className="trendingDiv rounded-md">
+        <div className="trendingDiv">
           <Image src={brain} alt="Brain" className="rounded" />
           <h3 className="mt-6 mb-5 font-bold text-2xl">Glowing Brain</h3>
 
@@ -68,10 +63,10 @@ const TrendingNFT = () => {
             </div>
             <div>
               <p className="text-xs">Top Bid</p>
-              <div className="flex">
+              <h2 className="text-lg">
                 <Image src={ethereum} className="" alt="Ethereum" />
-                <h2 className="text-lg">8.32 ETH</h2>
-              </div>
+                3.32 ETH
+              </h2>
             </div>
           </div>
 
@@ -82,7 +77,7 @@ const TrendingNFT = () => {
           </div>
         </div>
 
-        <div className="trendingDiv rounded-md">
+        <div className="trendingDiv">
           <Image src={box} className="rounded" alt="Box" />
           <h3 className="mt-6 mb-5 font-bold text-2xl">Iron Magic Cube</h3>
 
@@ -103,10 +98,10 @@ const TrendingNFT = () => {
             </div>
             <div>
               <p className="text-xs">Top Bid</p>
-              <div className="flex">
+              <h2 className="text-lg">
                 <Image src={ethereum} className="" alt="Ethereum" />
-                <h2 className="text-lg">8.32 ETH</h2>
-              </div>
+                4.67 ETH
+              </h2>
             </div>
           </div>
         </div>
@@ -115,4 +110,4 @@ const TrendingNFT = () => {
   );
 };
 
-export default TrendingNFT;
+export default FirstTab;

@@ -6,6 +6,7 @@ import LiveAuction from './components/liveAuction';
 import Articles from './components/articles';
 import Banner from './components/banner';
 import Footer from './components/footer';
+import AppTab from './components/tabComponent/tabs';
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <TrendingNFT />
       <TopListArtist />
       <LiveAuction/>
+      <AppTab/>
       <Articles/>
       <Banner/>
       <Footer/>

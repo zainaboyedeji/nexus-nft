@@ -7,15 +7,15 @@ import liveauction from "../../../../public/liveAuctionImages/liveauction.png";
 
 const LiveAuction = () => {
   return (
-    <div className="mt-20">
-      <div>
+    <div className="mt-36">
+      <div className="text-center">
         <h3 className="text-4xl mb-10 inline ">Live Auction</h3>
         <div className="inline">
           <Image src={liveauction} alt="Live Auction" className="inline" />
         </div>
       </div>
 
-      <div className="flex w-full justify-between mt-10">
+      <div className="flex w-full justify-between mt-20">
         <div>
           <h1 className="text-4xl">
             // The Stronger Pain of Art <br /> Art #216

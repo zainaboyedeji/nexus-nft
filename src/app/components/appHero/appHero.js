@@ -43,15 +43,15 @@ export default function AppHero() {
 
             <div className="w-full flex mt-20">
                 <div className="flex w-1/2 justify-between cryptoDiv">
-                    <Image src={Bitcoin} alt="Bitcoin" className="bitcoinImage" />
-                    <Image src={Crypto} alt="Crypto" className="cryptoImage" />
-                    <Image src={MetaMask} alt="MetaMask" className="cryptoImage pr-10" />
+                    <Image src={Bitcoin} alt="Bitcoin" className="w-32 h-8" />
+                    <Image src={Crypto} alt="Crypto" className="w-32 h-7 mt-2" />
+                    <Image src={MetaMask} alt="MetaMask" className="w-32 h-7 mt-2" />
                 </div>
 
                 <div className="flex w-1/2 justify-between pl-10">
                     <div>
                         <h6 className="heroHeader font-bold text-2xl mb-2">12.3K</h6>
-                        <p className="heroParagraph">Running Action</p>
+                        <p className="heroParagraph">Running Auction</p>
                     </div>
 
                     <div>
