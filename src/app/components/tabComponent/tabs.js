@@ -18,7 +18,7 @@ const AppTab = () => {
 
   return (
     <>
-      <div>
+      <div className="text-center mt-10">
         <h3>Explore by Category</h3>
         <p>
           Explore our category and collect thousand of amazing arts from the
@@ -26,8 +26,8 @@ const AppTab = () => {
         </p>
       </div>
       <div className="mainTab">
-        <div className="Tabs">
-          <ul className="nav">
+        <div className="Tabs text-gray-400">
+          <ul className="nav bg-gray-100 p-4">
             <li
               className={activeTab === "tab1" ? "active" : ""}
               onClick={handleTab1}
@@ -87,6 +87,7 @@ const AppTab = () => {
           </div>
         </div>
       </div>
+      <div><button>View More</button></div>
     </>
   );
 };
