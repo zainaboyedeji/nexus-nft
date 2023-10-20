@@ -9,11 +9,11 @@ import articles from "../../../../public/articlesImages/articles.png";
 const Articles = () => {
   return (
     <div className="mt-20">
-      <div>
+      <div className="text-center">
         <h3 className="inline"> Some Articles That Can Help You </h3>
         <Image src={articles} alt="Articles" className="inline" />
       </div>
-      <div className="w-full flex justify-between">
+      <div className="w-full flex justify-between mt-10">
         <div>
           <div className="bg-gray-100 p-3">
             <Image src={manDrinkingWater} alt="Man Drinking Water" />
@@ -24,7 +24,7 @@ const Articles = () => {
             will <br /> help you get into the nft world
           </p>
 
-          <div className="mt-5">
+          <div className="mt-5 flex">
             <Image src={eye} alt="Eye" />
             <p>2.4K</p>
             <h6>
@@ -44,7 +44,7 @@ const Articles = () => {
             <br /> you how i get up from stuck and increase the art taste
           </p>
 
-          <div className="mt-5">
+          <div className="mt-5 flex">
             <Image src={eye} alt="Eye" />
             <p>5.8K</p>
             <h6>

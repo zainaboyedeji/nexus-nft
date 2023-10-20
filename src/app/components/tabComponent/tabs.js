@@ -4,6 +4,9 @@ import React, { useState } from "react";
 import "./tabs.css";
 import FirstTab from "../allTabs/firstTab";
 import SecondTab from "../allTabs/secondTab";
+import explore from "../../../../public/exploreImages/explore.png";
+import Image from "next/image";
+import './tabs.css'
 
 const AppTab = () => {
   const [activeTab, setActiveTab] = useState("tab1");
@@ -18,8 +21,13 @@ const AppTab = () => {
 
   return (
     <>
-      <div className="text-center mt-10">
-        <h3>Explore by Category</h3>
+      <div className="text-center mt-52">
+        <div className="flex justify-center">
+          <h1 className="exploreH3">Explore by Category</h1>
+          <div>
+            <Image src={explore} alt="explore" />
+          </div>
+        </div>
         <p>
           Explore our category and collect thousand of amazing arts from the
           awesome artist.
@@ -32,7 +40,7 @@ const AppTab = () => {
               className={activeTab === "tab1" ? "active" : ""}
               onClick={handleTab1}
             >
-             All Categories
+              All Categories
             </li>
             <li
               className={activeTab === "tab2" ? "active" : ""}
@@ -45,35 +53,33 @@ const AppTab = () => {
               className={activeTab === "tab3" ? "active" : ""}
               onClick={handleTab1}
             >
-             Art
+              Art
             </li>
             <li
               className={activeTab === "tab4" ? "active" : ""}
               onClick={handleTab2}
             >
-             Photography
+              Photography
             </li>
-
 
             <li
               className={activeTab === "tab5" ? "active" : ""}
               onClick={handleTab1}
             >
-            Utility
+              Utility
             </li>
             <li
               className={activeTab === "tab6" ? "active" : ""}
               onClick={handleTab2}
             >
-             Domain Names
+              Domain Names
             </li>
-
 
             <li
               className={activeTab === "tab7" ? "active" : ""}
               onClick={handleTab1}
             >
-             Metaverse
+              Metaverse
             </li>
             <li
               className={activeTab === "tab8" ? "active" : ""}
@@ -87,7 +93,6 @@ const AppTab = () => {
           </div>
         </div>
       </div>
-      <div><button>View More</button></div>
     </>
   );
 };

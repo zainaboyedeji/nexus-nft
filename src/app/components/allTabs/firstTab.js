@@ -1,111 +1,35 @@
-import Image from "next/image";
-import blackearth from "../../../../public/blackearth.png";
-import creambox from "../../../../public/creambox.png";
-import ellipsis from "../../../../public/ellipsis.png";
-import brain from "../../../../public/brain.png";
-import box from "../../../../public/box.png";
-import boxtwo from "../../../../public/box2.png";
-import ethereum from "../../../../public/ethereum.png";
-import sculpture from "../../../../public/sculpture.png";
-import "./firstTab.css";
+import hello from "../../../../public/exploreImages/hello.png";
+import appleicon from "../../../../public/exploreImages/apple.png";
+import chair from "../../../../public/exploreImages/chair.png";
+import mindofhole from "../../../../public/exploreImages/mindofhole.png";
+import manoncloud from "../../../../public/exploreImages/manoncloud.png";
+import glassmorphrism from "../../../../public/exploreImages/glassmorphrism.png";
+import swirlyglowball from "../../../../public/exploreImages/swirlyglowball.png";
+import scarymanwithaxe from "../../../../public/exploreImages/scarymanwithaxe.png";
+import stainlesssteel from "../../../../public/exploreImages/stainlesssteel.png";
+import cloudyicon from "../../../../public/exploreImages/cloudyicon.png";
+import cryptogangicon from "../../../../public/exploreImages/cryptogangicon.png";
+import deathartisticon from "../../../../public/exploreImages/deathartisticon.png";
+import flewawayicon from "../../../../public/exploreImages/flewawayicon.png";
+import guterdogsicon from "../../../../public/exploreImages/guterdogsicon.png";
+import punksonlyicon from "../../../../public/exploreImages/punksonlyicon.png";
+import triangleartsicon from "../../../../public/exploreImages/triangleartsicon.png";
+import Card from "../card/card";
 
 const FirstTab = () => {
   return (
-    <div className="mt-36">
-      <div className="flex justify-between mt-10">
-        <div className="trendingDiv">
-          <Image src={blackearth} className="rounded" alt="BlackEarth" />
-          <h3 className="mt-6 mb-5 font-bold text-2xl">Black Earth Grid</h3>
-
-          <div className="flex justify-between">
-            <div className="flex">
-              <Image src={creambox} className="rounded-full" alt="CreamBox" />{" "}
-              <span className="mt-3 ml-2 text-sm">Javier</span>
-            </div>
-            <div className="mt-5">
-              <Image src={ellipsis} className="" alt="Ellipsis" />
-            </div>
-          </div>
-
-          <div className="flex mt-6 justify-between">
-            <div>
-              <p className="text-xs">End in</p>
-              <h2 className="text-lg">1h 50min</h2>
-            </div>
-            <div>
-              <p className="text-xs">Top Bid</p>
-              <h2 className="text-lg">
-                <Image src={ethereum} className="" alt="Ethereum" />
-                8.32 ETH
-              </h2>
-            </div>
-          </div>
-        </div>
-
-        <div className="trendingDiv">
-          <Image src={brain} alt="Brain" className="rounded" />
-          <h3 className="mt-6 mb-5 font-bold text-2xl">Glowing Brain</h3>
-
-          <div className="flex justify-between">
-            <div className="flex">
-              <Image src={sculpture} className="rounded-full" alt="Sculpture" />{" "}
-              <span className="mt-3 ml-2 text-sm">Maabits</span>
-            </div>
-            <div className="mt-5">
-              <Image src={ellipsis} className="" alt="Ellipsis" />
-            </div>
-          </div>
-
-          <div className="flex mt-6 justify-between">
-            <div>
-              <p className="text-xs">End in</p>
-              <h2 className="text-lg">2h 10min</h2>
-            </div>
-            <div>
-              <p className="text-xs">Top Bid</p>
-              <h2 className="text-lg">
-                <Image src={ethereum} className="" alt="Ethereum" />
-                3.32 ETH
-              </h2>
-            </div>
-          </div>
-
-          <div className="mt-5 flex justify-center">
-            <button className="trendingButton rounded-full w-full">
-              Place a Bid
-            </button>
-          </div>
-        </div>
-
-        <div className="trendingDiv">
-          <Image src={box} className="rounded" alt="Box" />
-          <h3 className="mt-6 mb-5 font-bold text-2xl">Iron Magic Cube</h3>
-
-          <div className="flex justify-between">
-            <div className="flex">
-              <Image src={boxtwo} className="rounded-full" alt="Box-Two" />{" "}
-              <span className="mt-3 ml-2 text-sm">Kondrashova</span>
-            </div>
-            <div className="mt-5">
-              <Image src={ellipsis} className="" alt="Ellipsis" />
-            </div>
-          </div>
-
-          <div className="flex mt-6 justify-between">
-            <div>
-              <p className="text-xs">End in</p>
-              <h2 className="text-lg">3h 30min</h2>
-            </div>
-            <div>
-              <p className="text-xs">Top Bid</p>
-              <h2 className="text-lg">
-                <Image src={ethereum} className="" alt="Ethereum" />
-                4.67 ETH
-              </h2>
-            </div>
-          </div>
-        </div>
+    <div className="mt-26">
+      <div className="flex justify-between mt-10 flex-wrap">
+     <Card img={hello} imgAlt="hello" imgNext={appleicon} imgNextAlt="appleicon" cardText="Hello Computer" cardParagraph="Buy Now"  cardEth="0.32 ETH" noOfLikes="216" iconText="Marjuki"/>
+     <Card img={swirlyglowball} imgAlt="swirlyglowball" imgNext={guterdogsicon} imgNextAlt="guterdogsicon" cardText="Hello Computer" cardParagraph="Buy Now"  cardEth="0.45 ETH" noOfLikes="229" iconText="GuterDogs" buttonText="Place a bid"/>
+     <Card img={mindofhole} imgAlt="mindofhole" imgNext={cryptogangicon} imgNextAlt="cryptogangicon" cardText="Hello Computer" cardParagraph="Buy Now"  cardEth="1.32 ETH" noOfLikes="189" iconText="CryptoGang"/>
+     <Card img={stainlesssteel} imgAlt="stainlesssteel" imgNext={punksonlyicon} imgNextAlt="punksonlyicon" cardText="Hello Computer" cardParagraph="Buy Now"  cardEth="0.67 ETH" noOfLikes="90" iconText="PunksOnly"/>
+     <Card img={glassmorphrism} imgAlt="glassmorphrism" imgNext={triangleartsicon} imgNextAlt="triangleartsicon" cardText="Hello Computer" cardParagraph="Buy Now"  cardEth="0.89 ETH" noOfLikes="190" iconText="Trianglearts"/>
+     <Card img={scarymanwithaxe} imgAlt="scarymanwithaxe" imgNext={deathartisticon} imgNextAlt="deathartisticon" cardText="Hello Computer" cardParagraph="Buy Now"  cardEth="0.21 ETH" noOfLikes="139" iconText="Deathartist"/>
+     <Card img={chair} imgAlt="chair" imgNext={cloudyicon} imgNextAlt="cloudyicon" cardText="Hello Computer" cardParagraph="Buy Now"  cardEth="0.29 ETH" noOfLikes="101" iconText="CloudyBuddy"/>
+     <Card img={manoncloud} imgAlt="manoncloud" imgNext={flewawayicon} imgNextAlt="flewawayicon" cardText="Hello Computer" cardParagraph="Buy Now"  cardEth="0.55 ETH" noOfLikes="114" iconText="FlewAway"/>
       </div>
+      <div><button>View More</button></div>
     </div>
   );
 };
