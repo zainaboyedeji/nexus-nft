@@ -7,10 +7,17 @@ import Articles from './components/articles';
 import Banner from './components/banner';
 import Footer from './components/footer';
 import AppTab from './components/tabComponent/tabs';
+import { Manrope } from 'next/font/google'
+
+const manrope = Manrope({
+  subsets: ['latin'],
+  variable: '--font-manrope',
+})
+
 
 export default function Home() {
   return (
-    <main className='px-20 py-10'>
+    <main className={`${manrope.variable} font-sans`}>
       <AppNavbar />
       <AppHero />
       <TrendingNFT />

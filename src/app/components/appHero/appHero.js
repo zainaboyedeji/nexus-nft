@@ -20,7 +20,7 @@ export default function AppHero() {
                     </div>
                 </div>
                 <p className="text-center mt-12 exploreText font-thin">
-                    Explore the largest market of NFT and sell billion of amazing NFT arts. Collects <br /> a lot of arts to appreciate the artist
+                    Explore  yet the largest market of NFT and sell billion of amazing NFT arts. Collects <br /> a lot of arts to appreciate the artist
                 </p>
                 <div className="flex justify-center mt-10 mb-5">
                     <button className="heroButton rounded-full">Discover</button>

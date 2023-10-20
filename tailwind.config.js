@@ -7,8 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        
+      backgroundImage: {  
+      },
+      fontFamily: {
+        sans: ['var(--font-manrope)'],
       },
     },
   },
